@@ -1,3 +1,9 @@
+# DDRKrump fork of Zmod fork of Simply Love
+
+This fork is mostly minor visual changes that are lazily implemented. Things like shrinking the size of the header on the gameplay screen so the notefield has a little more breathing room. Note that there are almost certainly bugs with any visual options I don't use.
+
+I plan on adding serial output with judgement information for LEDs in the future.
+
 # Zmod fork of Simply Love
 
 A fork of Simply Love with some extra features that (attempt to) enhance quality of life while playing.

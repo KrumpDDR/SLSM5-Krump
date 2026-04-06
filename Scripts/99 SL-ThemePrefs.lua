@@ -148,8 +148,8 @@ SL_CustomPrefs.Get = function()
 		-- the StepMania application is started.
 		SimplyLoveColor =
 		{
-			-- a nice pinkish-purple, by default
-			Default = 3,
+			-- a nice blue by default
+			Default = 5,
 			Choices = { 1,2,3,4,5,6,7,8,9,10,11,12 },
 			Values  = { 1,2,3,4,5,6,7,8,9,10,11,12 }
 		},
@@ -228,19 +228,19 @@ SL_CustomPrefs.Get = function()
 		-- Enable/Disable Certain Screens
 		AllowScreenSelectProfile =
 		{
-			Default = false,
+			Default = true,
 			Choices = { THEME:GetString("ThemePrefs","Yes"), THEME:GetString("ThemePrefs", "No") },
 			Values  = { true, false }
 		},
 		AllowScreenSelectColor =
 		{
-			Default = true,
+			Default = false,
 			Choices = { THEME:GetString("ThemePrefs","Yes"), THEME:GetString("ThemePrefs", "No") },
 			Values  = { true, false }
 		},
 		AllowScreenSelectPlayMode =
 		{
-			Default = true,
+			Default = false,
 			Choices = { THEME:GetString("ThemePrefs","Yes"), THEME:GetString("ThemePrefs", "No") },
 			Values  = { true, false }
 		},
@@ -319,7 +319,7 @@ SL_CustomPrefs.Get = function()
 		},
 		-- - - - - - - - - - - - - - - - - - - -
 		EnableGrooveStats = {
-			Default = false,
+			Default = true,
 			Choices =  { THEME:GetString("ThemePrefs","Yes"), THEME:GetString("ThemePrefs", "No") },
 			Values  = { true, false }
 		},
@@ -356,7 +356,7 @@ SL_CustomPrefs.Get = function()
 		-- new Zmod stuff
 		-- - - - - - - - - - - - - - - - - - - -
 		EnableBoogieStats = {
-			Default = false,
+			Default = true,
 			Choices =  { THEME:GetString("ThemePrefs","Yes"), THEME:GetString("ThemePrefs", "No") },
 			Values  = { true, false }
 		},
@@ -368,7 +368,7 @@ SL_CustomPrefs.Get = function()
 		},
 
 		ThemeFont = {
-			Default = "Common",
+			Default = "Mega",
 			Choices = { THEME:GetString("ThemePrefs","Wendy"), THEME:GetString("ThemePrefs", "Mega"), THEME:GetString("ThemePrefs", "Unprofessional") },
 			Values = { "Common", "Mega", "Unprofessional" }
 		},
@@ -385,7 +385,7 @@ SL_CustomPrefs.Get = function()
 		},
 		ITGDiffColors =
 		{
-			Default = "Simply Love",
+			Default = "DDR",
 			Choices = { "Simply Love", "ITG", "DDR" }
 		},
 		SongSelectBG =
@@ -408,7 +408,7 @@ SL_CustomPrefs.Get = function()
 		},
 		GradeCombo =
 		{
-			Default = false,
+			Default = true,
 			Choices = { THEME:GetString("ThemePrefs", "On"), THEME:GetString("ThemePrefs", "Off") },
 			Values = { true, false }
 		}
