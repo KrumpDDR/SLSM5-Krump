@@ -7,7 +7,8 @@ local lifemeter_actor
 -- a "Surround" LifeMeter, which occupies the space behind the arrows,
 -- or a "Vertical" LifeMeter, which mimics the sizing and positioning used in ITG2.
 if SL.Global.GameMode == "ITG" then
-	local lifemeter_type = SL[ToEnumShortString(player)].ActiveModifiers.LifeMeterType or CustomOptionRow("LifeMeterType").Choices[1]
+	--local lifemeter_type = SL[ToEnumShortString(player)].ActiveModifiers.LifeMeterType or CustomOptionRow("LifeMeterType").Choices[1]
+	local lifemeter_type = "Vertical"
 	lifemeter_actor = LoadActor(lifemeter_type .. ".lua", player)
 end
 

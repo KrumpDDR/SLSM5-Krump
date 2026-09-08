@@ -13,7 +13,7 @@ local af = Def.ActorFrame{
     local player = GetPlayerAF(pn)
     
     player:addx(adjusted_offset_x)
-    player:addy(mods.NoteFieldOffsetY)
+    player:addy(mods.NoteFieldOffsetY-40)
 
     local notefield = player:GetChild("NoteField")
     if mods.MeasureLines == "Off" then

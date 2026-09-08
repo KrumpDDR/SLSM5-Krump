@@ -1,3 +1,9 @@
+# KrumpDDR fork of Zmod fork of Simply Love
+
+This fork is mostly minor visual changes that are lazily implemented. Things like shrinking the size of the header on the gameplay screen so the notefield has a little more breathing room. Note that there are almost certainly bugs with any visual options I don't use.
+
+I had planned on adding serial output with judgement information for LEDs, but quickly discovered how annoying that would be to do from a theme. Now I have a fork of ITGMania for doing that. So the purpose of this repo is a little lost. I still like my few little changes way more than stock SL though.
+
 # Zmod fork of Simply Love
 
 A fork of Simply Love with some extra features that (attempt to) enhance quality of life while playing.
